@@ -1,0 +1,22 @@
+@media (orientation: portrait) {
+    section.title h1 {
+        font-size: 4vh;
+    }
+
+    section.normal h1{
+        font-size: 4vh;
+    }
+
+    section.normal p1{
+        font-size: 2vh;
+    }
+
+    section.normal button{
+        font-size: 2vh;
+    }
+
+    section.normal p{
+        font-size: 1vh;
+    }
+
+}

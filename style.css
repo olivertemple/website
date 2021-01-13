@@ -5,7 +5,6 @@
 body {
     margin: 0 0 0 0;
     padding: 0;
-    color: var(--darkest);
     background-color: #dddddd;
     font-family: 'Yusei Magic', sans-serif;
 }
@@ -103,6 +102,12 @@ body {
     margin-bottom: 0px;
 }
 
+.normal p{
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    font-size: 1.5vh
+}
 .normal p1{
     font-size: 3vh;
     color: #f05454;
