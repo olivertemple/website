@@ -5,33 +5,45 @@ body {
     margin: 0 0 0 0;
     padding: 0;
     color: var(--darkest);
-    background-color:darkgrey;
-    font-family: Inter;
+    background-color: rgb(218, 218, 218);
 }
 
-
-/* Big intro text styling */
 section.title span.name {
     color:darkgreen;
+}
+section.title span.name:hover {
+    color:rgb(255, 210, 97);
 }
 section.title {
     color: white;
     box-sizing: border-box;
-    height: 100%;
+    height: 75vh;
     width: 100%;
+    background-color:darkgrey;
+
 }
 section.title div {
-    margin: 0 20% 0 20%;
+    margin: 0 20% 0 10%;
     position: absolute;
-    top: 50%;
+    top: 35%;
     transform: translateY(-50%);
     z-index: 3;
 }
+
 section.title h1 {
     font-size: 6.5vh;
     margin: 3vh 0;
     text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
 }
+
+section.title l{
+    color: inherit;
+}
+section.title l:hover {
+    color: rgb(4, 156, 118);
+}
+
+
 section.title button {
     font-size: 2vh;
     font-family: Inter;
@@ -59,6 +71,22 @@ hr {
     border-radius: 0.1vw;
 }
 
+section.grad{
+    background-image: linear-gradient(darkgrey,rgb(218, 218, 218));
+    height: 25vh;
+}
+
 section.normal{
-    background-color: pink;
+    background-color: rgb(218, 218, 218);
+    height: 90vh;
+}
+
+section.normal div{
+    text-align: center;
+    margin-top: 10vh;
+}
+section.normal h1{
+    color:rgb(122, 122, 122);
+    font-size: 6.5vh;
+    
 }
