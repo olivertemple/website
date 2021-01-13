@@ -10,6 +10,7 @@ body {
 
 section.title span.name {
     color:darkgreen;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0);
 }
 section.title span.name:hover {
     color:rgb(255, 210, 97);
@@ -33,11 +34,12 @@ section.title div {
 section.title h1 {
     font-size: 6.5vh;
     margin: 3vh 0;
-    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    
 }
 
 section.title l{
     color: inherit;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
 }
 section.title l:hover {
     color: rgb(4, 156, 118);
@@ -56,6 +58,7 @@ section.title button {
     outline: none;
     transition: 300ms;
     text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
 }
 section.title button:hover {
     border: 2px solid rgb(0, 66, 0);
