@@ -5,17 +5,18 @@ body {
     margin: 0 0 0 0;
     padding: 0;
     color: var(--darkest);
-    background-color: rgb(218, 218, 218);
+    background-color: #dddddd;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
-section.title span.name {
-    color:darkgreen;
+.title span.name {
+    color:#222831;
     text-shadow: 0px 0px 25px rgba(0, 0, 0, 0);
 }
-section.title span.name:hover {
-    color:rgb(255, 210, 97);
+.title span.name:hover {
+    color:#f05454;
 }
-section.title {
+.title {
     color: white;
     box-sizing: border-box;
     height: 75vh;
@@ -23,7 +24,7 @@ section.title {
     background-color:darkgrey;
 
 }
-section.title div {
+.title div {
     margin: 0 20% 0 10%;
     position: absolute;
     top: 45%;
@@ -31,26 +32,26 @@ section.title div {
     z-index: 3;
 }
 
-section.title h1 {
+.title h1 {
     font-size: 6.5vh;
     margin: 3vh 0;
     
 }
 
-section.title l{
+.title l{
     color: inherit;
     text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
 }
-section.title l:hover {
-    color: rgb(4, 156, 118);
+.title l:hover {
+    color: #30475e;
 }
 
 
-section.title button {
+.title button {
     font-size: 2vh;
     font-family: Inter;
     border: 2px solid black;
-    background: rgb(122, 122, 122);
+    background: #222831;
     color:white;
     padding: 1vh 2vh;
     cursor: pointer;
@@ -59,12 +60,13 @@ section.title button {
     transition: 300ms;
     text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
+    font-family: 'Yusei Magic', sans-serif;
 }
-section.title button:hover {
+.title button:hover {
     border: 2px solid rgb(0, 66, 0);
-    background-color: darkgreen;
-    color: var(--darkest);
+    background-color:#30475e;
 }
+/*
 hr {
     width: 30vw;
     height: 0.4vh;
@@ -72,24 +74,83 @@ hr {
     border: none;
     background-color: darkgrey;
     border-radius: 0.1vw;
-}
+}*/
 
-section.grad{
-    background-image: linear-gradient(darkgrey,rgb(218, 218, 218));
+.grad{
+    background-image: linear-gradient(darkgrey,#dddddd);
     height: 25vh;
 }
 
-section.normal{
-    background-color: rgb(218, 218, 218);
+.normal{
+    background-color:#dddddd;
     height: 90vh;
 }
 
-section.normal div{
-    text-align: center;
+.normal div{
+    margin: 0 20% 0 10%;
     margin-top: 10vh;
 }
-section.normal h1{
-    color:rgb(122, 122, 122);
+
+.normal div2{
+    margin: 0 0% 0 0%;
+    margin-top: 10vh;
+}
+
+.normal h1{
+    color:#222831;
     font-size: 6.5vh;
     
+}
+
+.normal h2{
+    color:#30475e;
+    font-size: 4vh;
+    margin-bottom: 0px;
+}
+
+.normal p1{
+    font-size: 3vh;
+    color: #f05454;
+    margin-left:2vh;
+}
+
+.normal span.language {
+    color: #30475e;
+}
+
+.normal span.language::after {
+    content: " \25E6"; /* • character unicode */
+    color: #30475e;
+}
+.normal button{
+    font-size: 2vh;
+    font-family: Inter;
+    border: 2px solid black;
+    background: #222831;
+    color:white;
+    padding: 1vh 2vh;
+    cursor: pointer;
+    margin: 0 2vh 2vh 0;
+    outline: none;
+    transition: 300ms;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    font-family: 'Yusei Magic', sans-serif;
+    margin-bottom: 0px;
+
+}
+.normal span.title {
+    color: #f05454;
+    transition: 300ms;
+}
+
+.normal button:hover span{
+    color: white;
+    transition: 300ms;
+}
+
+.normal button:hover {
+    border: 2px solid rgb(0, 66, 0);
+    background-color: #f05454;
+    color: #222831;
 }
