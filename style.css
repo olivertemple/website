@@ -12,9 +12,11 @@ body {
 .title span.name {
     color:#222831;
     text-shadow: 0px 0px 25px rgba(0, 0, 0, 0);
+    transition: 500ms;
 }
 .title span.name:hover {
     color:#f05454;
+    transition: 500ms;
 }
 .title {
     color: white;
@@ -41,9 +43,11 @@ body {
 .title l{
     color: inherit;
     text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    transition: 250ms;
 }
 .title l:hover {
     color: #30475e;
+    transition: 250ms;
 }
 
 
