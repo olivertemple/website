@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&display=swap');
 
 
 body {
@@ -63,18 +64,10 @@ body {
     font-family: 'Yusei Magic', sans-serif;
 }
 .title button:hover {
-    border: 2px solid rgb(0, 66, 0);
-    background-color:#30475e;
+    border: 2px solid #222831;
+    background-color:#f05454;
+    color: #222831;
 }
-/*
-hr {
-    width: 30vw;
-    height: 0.4vh;
-    outline: none;
-    border: none;
-    background-color: darkgrey;
-    border-radius: 0.1vw;
-}*/
 
 .grad{
     background-image: linear-gradient(darkgrey,#dddddd);
@@ -92,9 +85,11 @@ hr {
 }
 
 .normal div2{
-    margin: 0 0% 0 0%;
+    margin: 0% 0% 0% 0%;
     margin-top: 10vh;
 }
+
+
 
 .normal h1{
     color:#222831;
@@ -119,11 +114,12 @@ hr {
 }
 
 .normal span.language::after {
-    content: " \25E6"; /* • character unicode */
+    font-family: Inter;
+    content: " \2022"; /* • character unicode */
     color: #30475e;
 }
 .normal button{
-    font-size: 2vh;
+    font-size: 3vh;
     font-family: Inter;
     border: 2px solid black;
     background: #222831;
@@ -150,7 +146,23 @@ hr {
 }
 
 .normal button:hover {
-    border: 2px solid rgb(0, 66, 0);
+    border: 2px solid#222831;
     background-color: #f05454;
     color: #222831;
+}
+
+.normal footer{
+    margin-top: 10vh;
+    background-color: #222831;
+    color: #dddddd;
+    padding-bottom: 1vh;
+}
+
+a:link, a:visited, a:active {
+    color: #dddddd;
+    transition: 100ms;
+    text-decoration: none;
+}
+a:hover { 
+    color: #f05454;
 }
