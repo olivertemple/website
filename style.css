@@ -77,13 +77,75 @@ body {
     height: 25vh;
 }
 
-.normal{
+.skills{
     background-color:#dddddd;
-    height: 90vh;
+    width: 100%;
+
+}
+.skills div{
+    margin: 0% 20% 0% 10%;
+    margin-top: 10vh;
+}
+
+.skills h1{
+    color:#222831;
+    font-size: 6.5vh;
+    
+}
+
+.skills h2{
+    color:#30475e;
+    font-size: 4vh;
+    margin-bottom: 0px;
+}
+
+.column1{
+    width: 55%;
+    float:left;
+    font-size: 2vh;
+}
+
+.column2{
+    width: 45%;
+    float:left;
+    font-size: 2vh;
+}
+
+.skills ul{
+    color: #30475e;
+    list-style: none;
+}
+
+.skills li::before{
+    font-family: Inter;
+    font-size: 2.5vh;
+    content: "\2022";
+    color: rgb(0, 185, 0);
+}
+
+.skills li.orange::before{
+    font-family: Inter;
+    font-size: 2.5vh;
+    content: "\2022";
+    color: orange;
+}
+
+.skills li.red::before{
+    font-family: Inter;
+    font-size: 2.5vh;
+    content: "\2022";
+    color: red;
+}
+
+.normal{
+    background-color: #dddddd;
+    height: 100%;
+    width: 100%;
+
 }
 
 .normal div{
-    margin: 0 20% 0 10%;
+    margin: 0% 20% 0% 10%;
     margin-top: 10vh;
 }
 
@@ -91,8 +153,6 @@ body {
     margin: 0% 0% 0% 0%;
     margin-top: 10vh;
 }
-
-
 
 .normal h1{
     color:#222831;
@@ -112,6 +172,7 @@ body {
     margin-bottom: 0px;
     font-size: 1.5vh
 }
+
 .normal p1{
     font-size: 3vh;
     color: #f05454;
@@ -127,6 +188,7 @@ body {
     content: " \2022"; /* • character unicode */
     color: #30475e;
 }
+
 .normal button{
     font-size: 3vh;
     font-family: Inter;
@@ -144,6 +206,7 @@ body {
     margin-bottom: 0px;
 
 }
+
 .normal span.title {
     color: #f05454;
     transition: 300ms;
@@ -160,13 +223,6 @@ body {
     color: #222831;
 }
 
-.normal footer{
-    margin-top: 10vh;
-    background-color: #222831;
-    color: #dddddd;
-    padding-bottom: 1vh;
-}
-
 a:link, a:visited, a:active {
     color: #dddddd;
     transition: 100ms;
@@ -174,4 +230,36 @@ a:link, a:visited, a:active {
 }
 a:hover { 
     color: #f05454;
+}
+
+.footer{
+    margin-top: 0vh;
+    background-color: #222831;
+    color: #dddddd;
+    padding-bottom: 1vh;
+}
+
+.footer div{
+    margin: 0% 20% 0% 10%;
+    margin-top: 10vh;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.footer h2{
+    font-size: 4vh;
+    margin-bottom: 0px;
+    color:#dddddd;
+    padding-top: 1vh;
+}
+
+.footer p{
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    font-size: 1.5vh
+}
+
+.footer ul{
+    margin-top: 0px;
 }
