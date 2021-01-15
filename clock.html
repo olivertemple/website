@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Clock</title>
+        <link rel='stylesheet' href="clockstyle.css">
+        <link rel='stylesheet' href="mobileclockstyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="script.js"></script>
+    </head>
+    <body onload="updateClock(); setInterval('updateClock()', 1000); getDate();">
+        <section class="time">
+            <div>
+                <h1>The time is</h1>
+                <h2 id='hours'>hours</h2><h2>:</h2><h2 id="mins">mins</h2><h2>:</h2><h2 id="secs">secs</h2>
+            </div>
+        </section>
+        <section class="date">
+            <div>
+                <h1>The date is</h1>
+                <h2 id="date">day</h2><h2>&nbsp;</h2><h2 id="num">num</h2><h2>&nbsp;</h2><h2 id="month">month</h2><h2>,&nbsp;</h2><h2 id="year">year</h2>
+            </div>
+        </section>
+    </body>
+</html>

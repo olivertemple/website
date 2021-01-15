@@ -1,0 +1,35 @@
+
+@media (orientation: portrait) {
+        .time h1{
+        font-size: 6vh;
+        color: #00adb5;
+    }
+
+    .time h2{
+        font-size: 8vh;
+        color: #eeeeee;
+        float:left;
+    }
+
+    .date h1{
+        font-size: 6vh;
+        color: #00adb5;
+    }
+
+    .date h2{
+        font-size: 8vh;
+        color: #eeeeee;
+        float:left;
+    }
+    .date{
+        background-color: #393e46;
+        height: 100%;
+        margin-top:15%
+    }
+    
+    .date div{
+        padding-left: 10%;
+        padding-bottom: 3%;
+        padding-top: 3%;
+    }
+}

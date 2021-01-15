@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    background-color: #393e46;
+}
+.time{
+    background-color: #393e46;
+    height: 100%;
+}
+
+.time div{
+    padding-left: 10%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.time h1{
+    font-size: 10vh;
+    color: #00adb5;
+}
+
+.time h2{
+    font-size: 14vh;
+    color: #eeeeee;
+    float:left;
+}
+
+.time h2:hover{
+    color:#222831;
+}
+
+.date{
+    background-color: #393e46;
+    height: 100%;
+    margin-top:15%
+}
+
+.date div{
+    padding-left: 10%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.date h1{
+    font-size: 10vh;
+    color: #00adb5;
+}
+
+.date h2{
+    font-size: 14vh;
+    color: #eeeeee;
+    float:left;
+}
+
+.date h2:hover{
+    color:#005b5f;
+}
