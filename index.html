@@ -1,82 +1,73 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Oliver Temple | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobilestyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <script src="script.js"></script>
+    <link rel="icon" href="./resources/logo.svg">
 </head>
 
 <body style='margin:0px'>
     <section class="title">
         <div>
-            <h1><l>H</l><l>i</l><l>,</l> <l>I</l><l>'</l><l>m</l> <span class="name">Oliver</span><span class="name"> Temple</span><l>.</l><br><l>I </l><l>L</l><l>i</l><l>k</l><l>e </l><l>P</l><l>r</l><l>o</l><l>g</l><l>r</l><l>a</l><l>m</l><l>m</l><l>i</l><l>n</l><l>g</l><l>.</l></h1>
-            <button onclick="window.open('https://github.com/olivertemple')">GitHub</button><button onclick="entryScroll();">Learn More</button>
+            <h1>
+                <l>H</l><l>i</l><l>,</l><l>I</l><l>'</l><l>m </l><span class="name">Oliver</span><span class="name"> Temple</span><l>.</l><br><l>I </l><l>L</l><l>i</l><l>k</l><l>e </l><l>P</l><l>r</l><l>o</l><l>g</l><l>r</l><l>a</l><l>m</l><l>m</l><l>i</l><l>n</l><l>g</l><l>.</l>
+            </h1>
+            <button onclick="window.open('https://github.com/olivertemple')">GitHub</button>
+            <button onclick="entryScroll();">Learn More</button>
         </div>
     </section>
-    <section class='grad'></section>
-
-    <section class = "skills" id="entryPoint">
-        <div style="padding-bottom:10%;">
-            <h1>My Skills</h1>
-            <div3 class="column1">
-                <h2 style='color: #222831;'>Proficiency</h2>
-                <ul>
-                    <li> Python (Since 2015)</li>
-                    <li> HTML/CSS (Since 2020)</li>
-                </ul>
-            </div3>
-            <div3 class="column2">
-                <h2 style='color: #222831;'>Working knowledge</h2>
-                <ul>
-                    <li class='orange'> R (Since 2020)</li>
-                    <li class='red'> Javascript (Since 2021)</li>
-                </ul>
-            </div3><br>
-        </div>
+    <section class='grad'>
     </section>
 
-    <section class = 'normal'>
-        <div>
-            <h1>Some of my favorite projects:</h1>
-            <!--<button onclick="window.location.href='https://github.com/olivertemple/geometric-images'""><span class='title'>Geometric Images</span><br>Python</button><button>test</button>-->
-            <div2>
-                <button onclick="window.open('https://github.com/olivertemple/geometric-images')">Geometric Images</button><br>
-                <p1><span class='language'>Python</span> This is a small python program that will generate geometrical images based on user input using the 'matplotlib' library. Both 2D and 3D images can be generated, in different colours and shapes of the same dimensions can be overlaid. This was my first ever project in which I implemented a GUI, making the project much more user friendly, as the user does not need to understand python or the terminal. I enjoyed the challenge that this project gave me, I learned a lot about the python libraries 'matplotlib' and 'pysimplegui'.</p1>
-            </div2>
+    <section class='normal' id="entryPoint">
+        <div id="item">
+            <div id="weather">
+                <h1>Weather App</h1>
+                <div>
+                    <p>This is a simple progressive web app that is used to show the weather in your current location. It uses the open weather API to fetch the data for your current location.</p>
+                    <p>This project taught me alot about APIs, as well as javascript and also JSON files.</p>
+                </div>
+                <button onclick="window.open('https://github.com/olivertemple/weather-app')">See it on GitHub</button>
+            </div>
         </div>
-        <div>
-            <div2>
-                <button onclick="window.open('https://github.com/olivertemple/bulk-file-renamer')">Bulk File Renamer</button><br>
-                <p1><span class='language'>Python</span> This is another simple program that will rename all of the files with a specific file extension in a specific directory using the python library 'os'. The user specifies the file extension, directory and the naming scheme to follow, as well as a number to start at. This was my second project in which i implemented a GUI, which strengthened my knowledge and confidence with the 'pysimplegui' module.</p1>
-        
-            </div2>
+
+        <section class="skills" id="entryPoint">
+            <h1>Technologies</h1>
+            <ul>
+                <li> Python (Since 2015)</li>
+                <li> HTML/CSS (Since 2020)</li>
+                <li class='orange'> Javascript (Since 2021)</li>
+            </ul>
+            </div>
+        </section>
+        <div id="item">
+            <div id="crypto">
+                <h1>Crypto Portfolio</h1>
+                <div>
+                    <p>This is another PWA that I made to show the assets in a binance crypto portfolio.</p>
+                    <p>a small portfolio such as my own, you cannot see the pie chart showing the distribution of assets in the binance app. So i made my own app to do just that.</p>
+                </div>
+                <button onclick="window.open('https://github.com/olivertemple/crypto-portfolio')">See it on GitHub</button>
+            </div>
         </div>
-            
-        <div>
-            <div2>
-                <button onclick="window.open('https://github.com/olivertemple/message-sender-google-messages')">Message Sender For Google Messages</button><br>
-                <p1><span class="language">Python</span> This is a simple program that sends the content in a text file to a recipient of the users choice, one sentence at a time by controlling the computer's peripherals (through the use of the python library 'pyautogui'), and navigating to <a href='https://messages.google.com/web'  target="_blank" style="color:#f05454" onMouseOver="this.style.color='#30475e'"
-                    onMouseOut="this.style.color='#f05454'" >messages for web</a>, starting a chat and pasting the content. I did this project for a bit of fun and to see how python can be used to control a computer's peripherals.</p1>
-            </div2>
-        </div>
-        <div>
-            <div2>
-                <button onclick="window.open('https://github.com/olivertemple/website')">This Website</button><br>
-                <p1><span class="language">CSS/HTML</span> This is a website for me to learn and practice web development, as well as showcase some of my favorite projects. This is my first website for which I have started learning html and css, rather than just googling the solutions. I have thoroughly enjoyed working on this website and I hope to continue working on it in the future. I have learnt lots about both css and html and how they interact with each other.</p1>
-            </div2>
-        </div>
+
     </section>
+
     <section class="footer">
         <div>
-            <h2 style="">Contact Me</h2>
+            <h2>Contact Me</h2>
             <p> If you have any questions, please feel free to contact me on any of the platforms below.</p>
-            <ul >
-                <li>Email: <a href='mailto:ollie.temple@icloud.com'>ollie.temple@icloud.com</a></li>
-                <li>GitHub: <a href='https://github.com/olivertemple'>olivertemple</a></li>
-            </ul>          
+            <ul>
+                <li>Email: <a href='mailto:oliver.temple.dev@gmail.com'>oliver.temple.dev@gmail.com</a></li>
+                <li>GitHub: <a onclick="window.open('https://github.com/olivertemple')">olivertemple</a></li>
+            </ul>
+            <p id="sourceCode" onclick="window.open('https://github.com/olivertemple/portfolio-website')">See the source code for this website on GitHub</p>
         </div>
     </section>
+
+
 </html>

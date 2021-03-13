@@ -1,31 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&display=swap");
+* {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0 0 0 0;
     padding: 0;
     background-color: #dddddd;
-    font-family: 'Yusei Magic', sans-serif;
+    font-family: "Yusei Magic", sans-serif;
 }
 
 .title span.name {
-    color:#222831;
+    color: #222831;
     text-shadow: 0px 0px 25px rgba(0, 0, 0, 0);
     transition: 500ms;
 }
-.title span.name:hover {
-    color:#f05454;
-    transition: 500ms;
-}
+
 .title {
     color: white;
     box-sizing: border-box;
     height: 75vh;
     width: 100%;
-    background-color:darkgrey;
-
+    background-color: darkgrey;
 }
+
 .title div {
     margin: 0 20% 0 10%;
     position: absolute;
@@ -37,26 +36,20 @@ body {
 .title h1 {
     font-size: 6.5vh;
     margin: 3vh 0;
-    
 }
 
-.title l{
+.title l {
     color: inherit;
     text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
     transition: 250ms;
 }
-.title l:hover {
-    color: #30475e;
-    transition: 250ms;
-}
 
-
-.title button {
+button {
     font-size: 2vh;
     font-family: Inter;
     border: 2px solid black;
     background: #222831;
-    color:white;
+    color: white;
     padding: 1vh 2vh;
     cursor: pointer;
     margin: 0 2vh 2vh 0;
@@ -64,202 +57,187 @@ body {
     transition: 300ms;
     text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
-    font-family: 'Yusei Magic', sans-serif;
-}
-.title button:hover {
-    border: 2px solid #222831;
-    background-color:#f05454;
-    color: #222831;
+    font-family: "Yusei Magic", sans-serif;
 }
 
-.grad{
-    background-image: linear-gradient(darkgrey,#dddddd);
+.grad {
+    background-image: linear-gradient(darkgrey, #dddddd);
     height: 25vh;
 }
 
-.skills{
-    background-color:#dddddd;
-    width: 100%;
-
+.skills {
+    background-color: #dddddd;
 }
-.skills div{
+
+.skills div {
     margin: 0% 20% 0% 10%;
     margin-top: 10vh;
 }
 
-.skills h1{
-    color:#222831;
+.skills h1 {
+    color: #222831;
     font-size: 6.5vh;
-    
+    margin-bottom: 0px;
 }
 
-.skills h2{
-    color:#30475e;
+.skills h2 {
+    color: #30475e;
     font-size: 4vh;
     margin-bottom: 0px;
 }
 
-.column1{
-    width: 55%;
-    float:left;
-    font-size: 2vh;
-}
-
-.column2{
-    width: 45%;
-    float:left;
-    font-size: 2vh;
-}
-
-.skills ul{
+.skills ul {
     color: #30475e;
     list-style: none;
 }
 
-.skills li::before{
+.skills li::before {
     font-family: Inter;
     font-size: 2.5vh;
     content: "\2022";
     color: rgb(0, 185, 0);
 }
 
-.skills li.orange::before{
+.skills li.orange::before {
     font-family: Inter;
     font-size: 2.5vh;
     content: "\2022";
     color: orange;
 }
 
-.skills li.red::before{
+.skills li.red::before {
     font-family: Inter;
     font-size: 2.5vh;
     content: "\2022";
     color: red;
 }
 
-.normal{
+.normal {
     background-color: #dddddd;
     height: 100%;
     width: 100%;
-
+    display: flex;
+    padding-top: 20px;
 }
 
-.normal div{
-    margin: 0% 20% 0% 10%;
-    margin-top: 10vh;
-}
-
-.normal div2{
-    margin: 0% 0% 0% 0%;
-    margin-top: 10vh;
-}
-
-.normal h1{
-    color:#222831;
-    font-size: 6.5vh;
-    
-}
-
-.normal h2{
-    color:#30475e;
-    font-size: 4vh;
-    margin-bottom: 0px;
-}
-
-.normal p{
-    margin-top: 0px;
-    padding-left: 0px;
-    margin-bottom: 0px;
-    font-size: 1.5vh
-}
-
-.normal p1{
-    font-size: 3vh;
-    color: #f05454;
-    margin-left:2vh;
-}
-
-.normal span.language {
-    color: #30475e;
-}
-
-.normal span.language::after {
-    font-family: Inter;
-    content: " \2022"; /* • character unicode */
-    color: #30475e;
-}
-
-.normal button{
-    font-size: 3vh;
-    font-family: Inter;
-    border: 2px solid black;
-    background: #222831;
-    color:white;
-    padding: 1vh 2vh;
-    cursor: pointer;
-    margin: 0 2vh 2vh 0;
-    outline: none;
-    transition: 300ms;
-    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-    font-family: 'Yusei Magic', sans-serif;
-    margin-bottom: 0px;
-
-}
-
-.normal span.title {
-    color: #f05454;
-    transition: 300ms;
-}
-
-.normal button:hover span{
-    color: white;
-    transition: 300ms;
-}
-
-.normal button:hover {
-    border: 2px solid#222831;
-    background-color: #f05454;
-    color: #222831;
-}
-
-a:link, a:visited, a:active {
-    color: #dddddd;
-    transition: 100ms;
-    text-decoration: none;
-}
-a:hover { 
-    color: #f05454;
-}
-
-.footer{
+.footer {
     margin-top: 0vh;
     background-color: #222831;
     color: #dddddd;
     padding-bottom: 1vh;
 }
 
-.footer div{
+.footer div {
     margin: 0% 20% 0% 10%;
     margin-top: 10vh;
     margin-right: 0px;
     margin-top: 0px;
 }
 
-.footer h2{
+.footer h2 {
     font-size: 4vh;
     margin-bottom: 0px;
-    color:#dddddd;
+    color: #dddddd;
     padding-top: 1vh;
 }
 
-.footer p{
+.footer p {
     margin-top: 0px;
     padding-left: 0px;
     margin-bottom: 0px;
-    font-size: 1.5vh
+    font-size: 1.5vh;
 }
 
-.footer ul{
+.footer ul {
     margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #dddddd;
+    transition: 100ms;
+    text-decoration: none;
+}
+
+#item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0 auto;
+    width: 300px;
+    background: #00000000;
+    transition-duration: 500ms;
+}
+
+#weather {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #dddddd 42.39%), url(./resources/weather.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition-duration: 500ms;
+}
+
+#crypto {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #dddddd 42.39%), url(./resources/crypto.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+
+#item h1 {
+    margin-top: 230px;
+    color: #222831;
+    font-size: 40px;
+    margin-bottom: -10px;
+    transition-duration: 500ms;
+}
+
+#item button {
+    border-radius: 20px;
+}
+
+@media (min-width: 630px) {
+    #item:hover h1 {
+        margin-top: 500px;
+    }
+    #item:hover {
+        margin-top: -270px;
+    }
+    #weather:hover {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #dddddd 60%), url(./resources/weather.png);
+        background-repeat: no-repeat;
+    }
+    #crypto:hover {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #dddddd 60%), url(./resources/crypto.png);
+        background-repeat: no-repeat;
+    }
+    a:hover {
+        color: #f05454;
+        cursor: pointer;
+    }
+    #sourceCode:hover {
+        color: #f05454;
+        cursor: pointer;
+    }
+    button:hover {
+        border: 2px solid #222831;
+        background-color: #f05454;
+        color: #222831;
+    }
+    .title span.name:hover {
+        color: #f05454;
+        transition: 500ms;
+    }
+    .title l:hover {
+        color: #30475e;
+        transition: 250ms;
+    }
+}
+
+@media (max-width: 630px) {
+    .normal {
+        flex-direction: column;
+    }
 }
