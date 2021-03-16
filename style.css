@@ -240,4 +240,7 @@ a:active {
     .normal {
         flex-direction: column;
     }
+    .skills{
+        text-align: center;
+    }
 }
