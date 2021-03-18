@@ -117,6 +117,7 @@ button {
     height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: column;
     padding-top: 20px;
 }
 
@@ -185,6 +186,14 @@ a:active {
     background-repeat: no-repeat;
     transition-duration: 500ms;
 }
+#init {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #dddddd 65%), url(./resources/init.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 #item h1 {
     margin-top: 230px;
@@ -202,16 +211,19 @@ a:active {
     #item:hover h1 {
         margin-top: 500px;
     }
-    #item:hover {
-        margin-top: -270px;
-    }
+
     #weather:hover {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #dddddd 60%), url(./resources/weather.png);
         background-repeat: no-repeat;
+        margin-top: -270px;
     }
     #crypto:hover {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #dddddd 60%), url(./resources/crypto.png);
         background-repeat: no-repeat;
+        margin-top: -270px;
+    }
+    #init:hover h1{
+        margin-top: 230px;
     }
     a:hover {
         color: #f05454;
@@ -237,8 +249,8 @@ a:active {
 }
 
 @media (max-width: 630px) {
-    .normal {
-        flex-direction: column;
+    #row {
+        flex-direction: column !important;
     }
     .skills{
         text-align: center;
