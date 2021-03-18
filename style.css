@@ -208,19 +208,21 @@ a:active {
 }
 
 @media (min-width: 630px) {
-    #item:hover h1 {
-        margin-top: 500px;
-    }
-
     #weather:hover {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #dddddd 60%), url(./resources/weather.png);
         background-repeat: no-repeat;
         margin-top: -270px;
     }
+    #weather:hover h1{
+        margin-top: 500px;
+    }
     #crypto:hover {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #dddddd 60%), url(./resources/crypto.png);
         background-repeat: no-repeat;
         margin-top: -270px;
+    }
+    #crypto:hover h1{
+        margin-top: 500px;
     }
     #init:hover h1{
         margin-top: 230px;
